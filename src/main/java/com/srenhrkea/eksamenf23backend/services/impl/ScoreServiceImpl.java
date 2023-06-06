@@ -79,9 +79,9 @@ public class ScoreServiceImpl implements ScoreService {
     int result = position;
     if (notStarted)
       result = result + 2;
-    else if (falseStart)
+    if (falseStart)
       result = result + 1;
-    else if (notFinished)
+    if (notFinished)
       result = result + 1;
     return result;
   }
