@@ -29,4 +29,10 @@ public class Score {
   private int position;
 
   private int points;
+
+  private Boolean notStarted;
+
+  private Boolean falseStart;
+
+  private Boolean notFinished;
 }

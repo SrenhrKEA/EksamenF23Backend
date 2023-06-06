@@ -11,9 +11,9 @@ public interface RaceService {
 
   List<Race> getAllRaces();
 
-  void updateRace(Race boat);
+  void updateRace(Race race);
 
-  void saveRace(Race boat);
+  void saveRace(Race race);
 
-  void deleteRace(Race boat);
+  void deleteRace(Race race);
 }

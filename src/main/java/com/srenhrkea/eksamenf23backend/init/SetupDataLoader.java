@@ -39,14 +39,14 @@ public class SetupDataLoader implements
       boat.setLength(faker.number().numberBetween(20, 24));
       boatService.saveBoat(boat);
     }
-    /*Mellemste katogori*/
+    /*Mellemste kategori*/
     for (int i = 0; i < 4; i++) {
       boat = new Boat();
       boat.setName(faker.name().firstName());
       boat.setLength(faker.number().numberBetween(25, 44));
       boatService.saveBoat(boat);
     }
-    /*Største katogori*/
+    /*Største kategori*/
     for (int i = 0; i < 4; i++) {
       boat = new Boat();
       boat.setName(faker.name().firstName());
