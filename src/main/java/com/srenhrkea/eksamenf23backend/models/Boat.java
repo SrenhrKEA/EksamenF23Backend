@@ -25,7 +25,7 @@ public class Boat {
 
   private double length;
 
-  @Enumerated(EnumType.STRING)
+  @Enumerated(EnumType.ORDINAL)
   private BoatClassification classification;
 
   @ManyToMany(mappedBy = "boats")

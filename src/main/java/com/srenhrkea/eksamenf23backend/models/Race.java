@@ -24,7 +24,7 @@ public class Race {
 
   private LocalDate date;
 
-  @Enumerated(EnumType.STRING)
+  @Enumerated(EnumType.ORDINAL)
   private BoatClassification classification;
 
   @ManyToMany(fetch = FetchType.EAGER)
